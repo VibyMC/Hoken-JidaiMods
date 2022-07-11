@@ -1,0 +1,33 @@
+type = menu
+customization {
+  identifier = %id=7%
+  action = setbuttonlabel
+  value = CONTINUER
+}
+
+customization {
+  identifier = %id=7%
+  action = sethoverlabel
+  label = > CONTINUER
+}
+
+customization {
+  orientation = mid-centered
+  x = -40
+  width = 80
+  action = addwebtexture
+  y = -119
+  url = https://metropia.mtxserv.com/images/logo.png
+  height = 80
+}
+
+customization {
+  orientation = mid-centered
+  x = -134
+  width = 268
+  action = addwebtexture
+  y = -37
+  url = https://metropia.mtxserv.com/images/menu.png
+  height = 125
+}
+

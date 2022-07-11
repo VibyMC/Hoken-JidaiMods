@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiCreateWorld
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=8%
+  action = setbuttonlabel
+  value = Créer le monde
+}
+
+customization {
+  identifier = %id=8%
+  action = sethoverlabel
+  label = ➔ Créer le monde
+}
+
+customization {
+  identifier = %id=9%
+  action = setbuttonlabel
+  value = Annuler
+}
+
+customization {
+  identifier = %id=9%
+  action = sethoverlabel
+  label = ➔ Annuler
+}
+

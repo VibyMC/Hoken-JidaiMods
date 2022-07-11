@@ -1,0 +1,48 @@
+##[general]
+
+[Maximizes compatibility with the operating system. Disables file chooser and system tray. A minecraft restart is required after changing this value.]
+B:safemode = 'false';
+[A minecraft restart is required after changing this value.]
+B:enablehotkeys = 'false';
+[ONLY AVAILABLE ON WINDOWS! A minecraft restart is required after changing this value.]
+B:enablesystemtray = 'true';
+B:playmenumusic = 'true';
+
+
+##[customization]
+
+B:showcustomizationbuttons = 'true';
+[Maximizes mod compatibility. Disables background customization support for scrollable menu screens. Restart is needed after changing this value.]
+B:softmode = 'false';
+
+
+##[mainmenu]
+
+B:hidelogo = 'true';
+B:showmainmenufooter = 'false';
+B:hiderealmsnotifications = 'true';
+B:hidebranding = 'true';
+
+
+##[mainmenu_splash]
+
+I:splashoffsetx = '0';
+I:splashoffsety = '0';
+I:splashrotation = '-20';
+B:hidesplashtext = 'true';
+
+
+##[loading]
+
+B:allowgameintroskip = 'true';
+B:showanimationloadingstatus = 'true';
+S:gameintroanimation = '';
+S:customgameintroskiptext = '';
+
+
+##[minecraftwindow]
+
+[A minecraft restart is required after changing this value.]
+S:customwindowtitle = 'Hoken-Jidai v1.0';
+[A minecraft restart is required after changing this value.]
+B:customwindowicon = 'true';

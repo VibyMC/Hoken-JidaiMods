@@ -1,0 +1,143 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\bg2.png
+  action = texturizebackground
+}
+
+customization {
+  path = config\fancymenu\musique.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  path = config\fancymenu\yoo3.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  identifier = %id=4%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=1%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=2%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=5%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=7%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=6%
+  orientation = mid-centered
+  x = 141
+  action = movebutton
+  y = 56
+}
+
+customization {
+  identifier = %id=6%
+  width = 91
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttonlabel
+  value = Paramètres
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/transparent.png
+  backgroundnormal = config/fancymenu/transparent.png
+}
+
+customization {
+  identifier = %id=6%
+  action = sethoverlabel
+  label = ➔ Paramètres
+}
+
+customization {
+  orientation = bottom-right
+  hoverlabel = ➔ Quitter le jeu
+  buttonaction = quitgame
+  x = -104
+  width = 100
+  action = addbutton
+  y = -42
+  backgroundhovered = config/fancymenu/transparent.png
+  label = Quitter Hoken Jidai
+  backgroundnormal = config/fancymenu/transparent.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  hoverlabel = ➔ Se connecter
+  buttonaction = joinserver
+  x = -107
+  width = 214
+  action = addbutton
+  y = -17
+  backgroundhovered = config/fancymenu/transparent.png
+  label = Se connecter
+  backgroundnormal = config/fancymenu/transparent.png
+  value = hoken-jidai.inovaperf.com
+  height = 35
+}
+
+customization {
+  orientation = top-right
+  hoverlabel = ➔ Discord
+  buttonaction = openlink
+  x = -102
+  width = 100
+  action = addbutton
+  y = 210
+  backgroundhovered = config/fancymenu/transparent.png
+  label = Discord
+  backgroundnormal = config/fancymenu/transparent.png
+  value = https://discord.gg/qnPeX6usUV
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/logo-transparent.png
+  orientation = top-left
+  x = 427
+  width = 49
+  action = addtexture
+  y = 2
+  height = 48
+}
+

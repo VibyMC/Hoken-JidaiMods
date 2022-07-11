@@ -1,0 +1,117 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=1%
+  orientation = bottom-centered
+  x = -129
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=1%
+  action = setbuttonlabel
+  value = Jouer dans ce monde
+}
+
+customization {
+  identifier = %id=1%
+  action = sethoverlabel
+  label = ➔ Jouer dans ce monde
+}
+
+customization {
+  identifier = %id=2%
+  orientation = bottom-centered
+  x = -129
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=2%
+  action = setbuttonlabel
+  value = Créer un monde
+}
+
+customization {
+  identifier = %id=2%
+  action = sethoverlabel
+  label = ➔ Créer un monde
+}
+
+customization {
+  identifier = %id=3%
+  orientation = bottom-centered
+  x = 26
+  action = movebutton
+  y = -29
+}
+
+customization {
+  identifier = %id=3%
+  action = setbuttonlabel
+  value = Modifier
+}
+
+customization {
+  identifier = %id=3%
+  action = sethoverlabel
+  label = ➔ Modifier
+}
+
+customization {
+  identifier = %id=4%
+  orientation = bottom-centered
+  x = 26
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=4%
+  action = setbuttonlabel
+  value = Supprimer
+}
+
+customization {
+  identifier = %id=4%
+  action = sethoverlabel
+  label = ➔ Supprimer
+}
+
+customization {
+  identifier = %id=5%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=6%
+  orientation = bottom-left
+  x = 10
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttonlabel
+  value = Retour
+}
+
+customization {
+  identifier = %id=6%
+  action = sethoverlabel
+  label = ➔ Retour
+}
+

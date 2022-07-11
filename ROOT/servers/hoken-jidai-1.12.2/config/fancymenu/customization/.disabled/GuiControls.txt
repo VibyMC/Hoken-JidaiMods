@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiControls
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=5%
+  action = setbuttonlabel
+  value = Terminé
+}
+
+customization {
+  identifier = %id=5%
+  action = sethoverlabel
+  label = > Terminé
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttonlabel
+  value = Réinitialiser
+}
+
+customization {
+  identifier = %id=6%
+  action = sethoverlabel
+  label = > Réinitialiser
+}
+

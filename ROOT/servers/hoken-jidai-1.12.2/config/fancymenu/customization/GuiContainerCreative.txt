@@ -1,0 +1,17 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.inventory.GuiContainerCreative
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-centered
+  x = -84
+  width = 168
+  action = addwebtexture
+  y = -52
+  url = https://metropia.mtxserv.com/images/mojang.png
+  height = 42
+}
+

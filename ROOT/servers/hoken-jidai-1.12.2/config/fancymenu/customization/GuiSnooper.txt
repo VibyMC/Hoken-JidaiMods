@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiSnooper
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+

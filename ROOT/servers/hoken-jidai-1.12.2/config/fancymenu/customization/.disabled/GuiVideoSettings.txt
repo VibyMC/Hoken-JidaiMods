@@ -1,0 +1,24 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiVideoSettings
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=1%
+  action = setbuttonlabel
+  value = Terminé
+}
+
+customization {
+  identifier = %id=1%
+  action = sethoverlabel
+  label = > Terminé
+}
+

@@ -1,0 +1,103 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  renderorder = background
+}
+
+customization {
+  path = config\fancymenu\bg.png
+  panorama = true
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=1%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=2%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=4%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=5%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=6%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=7%
+  orientation = bottom-centered
+  x = -103
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=7%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=7%
+  action = setbuttonlabel
+  value = Continuer
+}
+
+customization {
+  identifier = %id=7%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/transparent.png
+  backgroundnormal = config/fancymenu/transparent.png
+}
+
+customization {
+  identifier = %id=7%
+  action = sethoverlabel
+  label = ➔ Continuer
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = ➔ Quitter le jeu
+  buttonaction = quitgame
+  x = 2
+  width = 100
+  action = addbutton
+  y = -30
+  backgroundhovered = config/fancymenu/transparent.png
+  label = Quitter le jeu
+  backgroundnormal = config/fancymenu/transparent.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  centered = false
+  x = -103
+  action = addtext
+  y = -39
+  scale = 2.0
+  value = §a§nMerci §fde votre visite.
+}
+

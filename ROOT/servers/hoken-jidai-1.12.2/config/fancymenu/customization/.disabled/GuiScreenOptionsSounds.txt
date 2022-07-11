@@ -1,0 +1,24 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiScreenOptionsSounds
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\back.jpg
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=12%
+  action = setbuttonlabel
+  value = Terminé
+}
+
+customization {
+  identifier = %id=12%
+  action = sethoverlabel
+  label = > Terminé
+}
+

@@ -1,0 +1,23 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.inventory.GuiInventory
+  renderorder = foreground
+}
+
+customization {
+  path = config\fancymenu\menu.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  orientation = mid-centered
+  x = -87
+  width = 173
+  action = addwebtexture
+  y = -139
+  url = https://metropia.mtxserv.com/images/mojang.png
+  height = 46
+}
+

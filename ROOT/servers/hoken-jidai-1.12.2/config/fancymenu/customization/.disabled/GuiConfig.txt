@@ -1,0 +1,18 @@
+type = menu
+
+customization-meta {
+  identifier = fr.nathanael2611.modularvoicechat.client.gui.GuiConfig
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=5%
+  action = setbuttonlabel
+  value = Mode: Push-to-talk
+}
+
+customization {
+  identifier = %id=8%
+  action = hidebutton
+}
+

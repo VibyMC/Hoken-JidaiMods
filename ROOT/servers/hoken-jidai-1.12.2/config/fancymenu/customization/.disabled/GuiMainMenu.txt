@@ -1,0 +1,17 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-left
+  x = 16
+  width = 396
+  action = addwebtexture
+  y = 21
+  url = https://metropia.mtxserv.com/images/mojang.png
+  height = 100
+}
+
